@@ -1,16 +1,56 @@
-.page{
-    background-color: rgb(165, 158, 158);
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../bloks/intro/intro.css);
+@import url(../bloks/intro/__accent/intro__accent.css);
+@import url(../bloks/intro/__list/intro__list.css);
+@import url(../bloks/intro/__text/intro__text.css);
+@import url(../bloks/intro/__title/intro__title.css);
+
+@import url(../bloks/page/pages.css);
+
+@import url(../bloks/lead/lead.css);
+@import url(../bloks/lead/__caption/lead__caption.css);
+@import url(../bloks/lead/__container/lead__container.css);
+@import url(../bloks/lead/__image/lead__image.css);
+@import url(../bloks/lead/__overlay/lead__overlay.css);
+@import url(../bloks/lead/__subtitle/lead__subtitle.css);
+@import url(../bloks/lead/__title/lead__title.css);
+
+@import url(../bloks/photo-grid/photo-grid.css);
+@import url(../bloks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../bloks/places/places.css);
+@import url(../bloks/places/__margin-place/places__margin-place.css);
+@import url(../bloks/place/place.css);
+@import url(../bloks/place/__image/place__image.css);
+@import url(../bloks/place/__link/place__link.css);
+@import url(../bloks/place/__paragraph/place__paragraph.css);
+@import url(../bloks/place/__text/place__text.css);
+@import url(../bloks/place/__title/place__title.css);
+@import url(../bloks/place/__url-heading/place__url-heading.css);
+@import url(../bloks/place/__website/place__websit.css);
+
+@import url(../bloks/cover/cover.css);
+@import url(../bloks/cover/__link/cover__link.css);
+@import url(../bloks/cover/__title/cover__title.css);
+@import url(../bloks/cover/__subtitle/cover__subtitle.css);
+@import url(../bloks/cover/__background/cover__background.css);
+
+@import url(../bloks/logo/logo.css);
+
+@import url(../bloks/header/header.css);
+@import url(../bloks/header/__lang/header__lang.css);
+@import url(../bloks/header/__link/header__link.css);
+@import url(../bloks/header/__link/_active/header__link_active.css);
+
+@import url(../bloks/link/link.css);
+
+@import url(../bloks/footer/footer.css);
+@import url(../bloks/footer/__copyright/footer__copyrigh.css);
+@import url(../bloks/footer/__link/footer__link.css);
+@import url(../bloks/footer/__menu/footer__menu.css);
+
+.content {
 }
-.gallery {
-    min-height: calc(100vh - 80px);
-    display: grid;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    gap: 10px;
-    padding: 0px 60px 60px;
-    grid-template-columns: repeat(5,auto) 200px;
-    grid-template-rows: repeat(6,auto);
-    
-    
-  }

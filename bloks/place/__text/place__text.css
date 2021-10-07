@@ -1,0 +1,11 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__text {
+    align-self: start;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__text {
+    margin: 0 16px;
+  }
+}

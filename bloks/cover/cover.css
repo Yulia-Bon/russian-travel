@@ -1,0 +1,8 @@
+.cover {
+  max-width: 1184px;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 1fr;
+  position: relative;
+  margin: auto;
+}

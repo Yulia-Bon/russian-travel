@@ -1,0 +1,15 @@
+.places__margin-place {
+  margin: auto auto 80px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .places__margin-place {
+    margin: auto 48px 80px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places__margin-place {
+    margin: 50px auto 80px;
+  }
+}
