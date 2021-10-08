@@ -1,8 +1,13 @@
 .places__margin-place {
-  margin: auto auto 80px;
+  margin: auto 148px 80px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1025px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__margin-place {
+    margin: auto 24px 80px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1278px) {
   .places__margin-place {
     margin: auto 48px 80px;
   }
@@ -13,3 +18,7 @@
     margin: 50px auto 80px;
   }
 }
+
+@media screen and (min-width: 1279px) {
+  .places__margin-place {
+    margin: auto 48px 84px;}}

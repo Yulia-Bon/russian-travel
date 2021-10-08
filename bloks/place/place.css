@@ -1,7 +1,7 @@
 .place {
   display: grid;
   grid-template-columns: 440px 1fr;
-  gap: 48px 32px;
+  gap: 48px 40px;
   justify-content: space-between;
   align-content: space-between;
 }
