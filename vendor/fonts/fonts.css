@@ -1,4 +1,4 @@
-/*В МАКЕТЕ НЕ ИСПОЛЬЗУЕТСЯ ШРИФТ INTER BOLD ВЕСОМ В 700*/
+/*нашла этот BOLD*/
 @font-face {
   font-family: "Inter";
   font-style: normal;
@@ -15,4 +15,12 @@
   font-display: swap;
   src: url("./Inter-Black.woff2") format("woff2"),
     url("./Inter-Black.woff2") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Inter-Bold.woff2") format("woff2"),
+    url("./Inter-Bold.woff") format("woff");
 }
