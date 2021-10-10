@@ -22,6 +22,7 @@
 @media screen and (max-width: 767px) {
   .lead {
     max-width: 320px;
-    margin-top: 48px;
+    /*по брифу 48, но так чуууточку лучше сходится*/
+    margin-top: 46px;
   }
 }
