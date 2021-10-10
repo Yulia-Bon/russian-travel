@@ -1,11 +1,12 @@
 .intro__text {
   max-width: 690px;
   color: #fff;
-  font-family: 'Inter';
+  font-family: 'Inter','Arial', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.08px;
+  /*в брифе стоит 26.08, но текст так едет. да и на 26 тоже едет в хроме, а в мозиле красота */
+  line-height: 26px;
   margin: 0 0 33px;
   padding: 0;
 }

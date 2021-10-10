@@ -9,22 +9,14 @@
   align-items: end;
   font-size: 16px;
   line-height: 18px;
+  grid-row-gap: 32px;
 }
 
 @media screen and (max-width: 750px) {
   .footer__menu {
     grid-template-columns: min-content;
     grid-template-rows: repeat(5, min-content);
-    grid-row-gap: 32px;
     font-size: 24px;
     line-height: 24px;
-    line-height: normal;
-  }
-}
-
-@media screen and (min-width: 751px) and (max-width: 1020px) {
-  .footer__menu {
-    font-size: 16px;
-    line-height: 18px;
   }
 }
