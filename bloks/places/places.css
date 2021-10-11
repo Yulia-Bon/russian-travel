@@ -8,21 +8,19 @@
 }
 
 
-@media screen and (min-width: 1023px) {
-  .places {
-    padding: auto 24px;
-    margin-bottom: 92px;
-    margin: auto 3%;
-  }
-}
+
 
 @media screen and (min-width: 767px) {
   .places {
     margin: auto 3% 17px; 
   }
 }
-/*я знаю, что слева отступ не
- такой, но нормального решения не нашла и мне так тоже нравится*/
+@media screen and (min-width: 1023px) {
+  .places {
+    
+    margin: auto 4.9%;
+  }
+}
 @media screen and (min-width: 1280px) {
   .places {
     margin-bottom: 92px;
