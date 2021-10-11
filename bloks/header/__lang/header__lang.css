@@ -8,7 +8,7 @@
   grid-template-rows: min-content;
   grid-column-gap: 18px;
   padding: 0;
-  margin-bottom: 0px;
+  margin-bottom: 6px;
 }
 
 @media screen and (max-width: 425px) {
@@ -16,6 +16,6 @@
     font-size: 18px;
     line-height: 20px;
     grid-column-gap: 18px;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
   }
 }
