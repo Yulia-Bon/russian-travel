@@ -7,20 +7,18 @@
   margin-bottom: 16px;
 }
 
-
-
-
 @media screen and (min-width: 767px) {
   .places {
-    margin: auto 3% 17px; 
+    margin: auto 3% 17px;
   }
 }
+
 @media screen and (min-width: 1023px) {
   .places {
-    
     margin: auto 4.9%;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .places {
     margin-bottom: 92px;
