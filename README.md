@@ -1,19 +1,48 @@
-# Проект: Путешествие по России
+# Russian Travel
 
-## [Посмотреть проект можно по ссылке](https://yulia-bon.github.io/russian-travel/index.html)
+This repository is dedicated to the **Russian Travel** project, a web application designed to explore different regions of Russia, including travel destinations, history, and culture.
 
-Проект написан с помощью языков:
-* [HTML]
-* [CSS]
+## Technologies Used
 
-## Описание проекта
-Использовались технологии Grid Layout и Flex для адаптивности страницы. Структура проекта выполнена по системе БЭМ.
+- **HTML5**: Structure and semantic markup of the web page.
+- **CSS3**: Styling and layout for the page.
+- **Figma**: Design and layout tool used for creating the visual mockups of the project.
 
-**Интро**
+## Features
 
-Проект о путешествии по Росии,  здесь можно найти фото интересный мест, ссылки на природные достопремичательности и спланировать своё путешествие. 
+- Interactive maps
+- Detailed descriptions of popular travel destinations in Russia
+- Cultural insights and travel tips
+- Responsive design for mobile and desktop use
 
-**Figma**
+### Getting Started
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+To get started with this repository, clone it to your local machine:
+
+`git clone https://github.com/Yulia-Bon/russian-travel.git`
+
+Navigate into the project directory:
+
+`cd russian-travel`
+
+### Open the Project
+This project consists of HTML and CSS and does not require additional setup.
+You can open it in a browser using one of the following methods:
+
+Manually open the index.html file in your browser.
+
+Use Live Server (if you are using VS Code).
+
+Run a local server using Node.js:
+1. Install the http-server package globally:
+
+`npm install -g http-server`
+
+2. Start the server inside the project folder:
+`http-server`
+
+The project will be available at: http://localhost:8080 (or another port displayed in the terminal).
+
+
+* [Link to the layout in Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
